@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class rectangle
+class rect
 {
 public:
     int len;
@@ -19,8 +19,8 @@ public:
 
 int main()
 {
-    rectangle *ptr;
-    ptr = new rectangle;        //dynamic object is created in heap
+    rect *ptr;
+    ptr = new rect;        //dynamic object is created in heap
     ptr->len=10;
     ptr->bre=15;
     cout<<ptr->area()<<endl;
